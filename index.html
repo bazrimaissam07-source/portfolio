@@ -135,7 +135,72 @@
             color: #ffffff;
             border: 1px solid #6c63ff;
         }
+<!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>🏋️ Gorilla Gym Website</h3>
+                <p>A complete front-end website for a gym. Built with HTML, CSS and JavaScript. Responsive design with multiple pages.</p>
+                <a href="https://bazrimaissam07-source.github.io/gym-website" target="_blank">View Project →</a>
+            </div>
+            <div class="project-card">
+                <h3>👤 Personal Portfolio</h3>
+                <p>My personal portfolio website showcasing my skills and projects. Built with HTML and CSS.</p>
+                <a href="https://bazrimaissam07-source.github.io/portfolio" target="_blank">View Project →</a>
+            </div>
+        </div>
+    </section>
+        /* PROJECTS */
+        .projects {
+            padding: 80px 60px;
+            text-align: center;
+        }
 
+        .projects h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #6c63ff;
+        }
+
+        .projects-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 12px;
+            width: 300px;
+            border: 1px solid #6c63ff;
+            text-align: left;
+        }
+
+        .project-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .project-card p {
+            font-size: 15px;
+            color: #aaaaaa;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .project-card a {
+            color: #6c63ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
         /* CONTACT */
         .contact {
             padding: 80px 60px;
