@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maissam Bazri - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: #1a1a1a;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #6c63ff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        nav ul a:hover {
+            color: #6c63ff;
+        }
+
+        /* HERO */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #6c63ff;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #aaaaaa;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background-color: #6c63ff;
+            color: white;
+            padding: 14px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero a:hover {
+            background-color: #574fd6;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 80px 60px;
+            text-align: center;
+            background-color: #1a1a1a;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #6c63ff;
+        }
+
+        .about p {
+            font-size: 17px;
+            color: #cccccc;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* SKILLS */
+        .skills {
+            padding: 80px 60px;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #6c63ff;
+        }
+
+        .skills-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill-card {
+            background-color: #1a1a1a;
+            padding: 20px 35px;
+            border-radius: 12px;
+            font-size: 16px;
+            color: #ffffff;
+            border: 1px solid #6c63ff;
+        }
+
+        /* CONTACT */
+        .contact {
+            padding: 80px 60px;
+            text-align: center;
+            background-color: #1a1a1a;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #6c63ff;
+        }
+
+        .contact p {
+            font-size: 17px;
+            color: #cccccc;
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            color: #6c63ff;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #555555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">Maissam.dev</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Hi, I'm <span>Maissam Bazri</span> 👋</h1>
+        <p>Front-end Developer | HTML · CSS · JavaScript</p>
+        <a href="#contact">Hire Me</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate front-end developer based in Annaba, Algeria.
+            I love building clean, responsive and user-friendly websites.
+            I'm currently looking for freelance opportunities and internships.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ton-email@gmail.com">ton-email@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/bazrimaissam07-source" target="_blank">github.com/bazrimaissam07-source</a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Maissam Bazri. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
